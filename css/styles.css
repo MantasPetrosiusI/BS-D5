@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: netflix-sans;
+    src: url("../fonts/NetflixSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: netflix-sans-bold;
+    font-weight: bold;
+    src: url("../fonts/NetflixSans-Bold.otf") format("opentype");
+}
+body{
+    font-family: netflix-sans;
+    font-size: 18px;
+    padding:50px;
+    margin: 0;
+    background-color: rgba(20,20,20,255);
+    color: white;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+section.container-fluid{
+    display: inline-flex;
+}
+
+h2{
+    font-size: 45px;
+}
+.idk{
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron-fluid{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.netflixLogo {
+    grid-area: nt;
+    object-fit: cover;
+    width: 100px;
+    max-height: 100%;
+}
+
+.navbar a {
+    color: var(--light);
+    text-decoration: none;
+    margin: 5px;
+}
+  
+.navbar a:hover {
+    color: var(--dark);
+}
+ .container-fluid{
+    display:flex;
+    justify-content: space-between;
+ } 
+.navbar2 a {
+    color: var(--light);
+    text-decoration: none;
+    margin: 5px;
+}
+  
+.navbar2 a:hover {
+    color: var(--dark);
+}
+
+  .netflixLogo img {
+    height: 35px;
+  }
+  
+.button{
+    border: 1px solid #646464;
+    background: #000000;
+    color:white;
+}
+.views{
+    border: 1px solid white;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    margin: 10px;
+}
+  
+.sub-links .row {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+.sub-links a {
+    color: gray;
+    text-decoration: none;
+}
+  
+.sub-links a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+  
+.logos a {
+    padding: 10px;
+}
+  
+.logos {
+    color: gray;
+    margin: 10px;
+}
+#service>span{
+    border: 1px solid gray;
+    padding: 10px;
+    color: gray;
+}
+p{
+    color:gray;
+    font-size: 12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
